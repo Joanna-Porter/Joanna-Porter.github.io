@@ -20,4 +20,120 @@ body{
   text-align: center;
   font-size: 40px;
   color:white;
-} 
+}
+
+.div1 {
+  height: 100%;
+}
+
+.background {
+  height: 100%;
+  background-image: linear-gradient(to bottom, pink, white);
+}
+
+.thegrid{
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-template-rows: 80px 80px 80px 80px;
+  grid-gap: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.blank1{
+  background-color: #FF69B4;
+}
+.blank2{
+  background-color: #FF69B4;
+}
+.blank3{
+  background-color: #FF69B4;
+}
+.blank4{
+  background-color: #FF69B4;
+}
+.blank5{
+  background-color: #FF69B4;
+}
+.blank6{
+  background-color: #FF69B4;
+}
+.blank7{
+  background-color: #FF69B4;
+}
+.blank8{
+  background-color: #FF69B4;
+}
+.blank9{
+  background-color: #FF69B4;
+}
+.blank10{
+  background-color: #FF69B4;
+}
+.blank11{
+  background-color: #FF69B4;
+}
+.blank12{
+  background-color: #FF69B4;
+}
+.blank13{
+  background-color: #FF69B4;
+}
+.blank14{
+  background-color: #FF69B4;
+}
+.blank15{
+  background-color: #FF69B4;
+}
+.blank16{
+  background-color: #FF69B4;
+}
+
+.blank1:hover{
+  background-color: #D90166;
+}
+.blank2:hover{
+  background-color: #D90166;
+}
+.blank3:hover{
+  background-color: #D90166;
+}
+.blank4:hover{
+  background-color: #D90166;
+}
+.blank5:hover{
+  background-color: #D90166;
+}
+.blank6:hover{
+  background-color: #D90166;
+}
+.blank7:hover{
+  background-color: #D90166;
+}
+.blank8:hover{
+  background-color: #D90166;
+}
+.blank9:hover{
+  background-color: #D90166;
+}
+.blank10:hover{
+  background-color: #D90166;
+}
+.blank11:hover{
+  background-color: #D90166;
+}
+.blank12:hover{
+  background-color: #D90166;
+}
+.blank13:hover{
+  background-color: #D90166;
+}
+.blank14:hover{
+  background-color: #D90166;
+}
+.blank15:hover{
+  background-color: #D90166;
+}
+.blank16:hover{
+  background-color: #D90166;
+}
