@@ -1,1 +1,23 @@
- 
+html{
+  height:100%;
+}
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.showit{
+  display: block;
+}
+
+.hideit{
+  display: none;
+}
+
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+} 
