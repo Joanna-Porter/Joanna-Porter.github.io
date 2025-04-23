@@ -30,6 +30,11 @@ body{
   height: 100%;
   background-image: linear-gradient(to bottom, pink, white);
 }
+.pic {
+height: 600px;
+width: 600px;
+}
+
 
 .homeimg {
   height:100%;
