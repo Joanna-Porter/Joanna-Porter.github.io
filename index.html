@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link href="style.css" rel="stylesheet" type="text/css"/>
-</head>
+<html>
+<header></header>
 <body>
- <div>
+<div>
 Pinkalicious
 </div>
 
@@ -13,19 +10,24 @@ Pinkalicious
   <button onclick="showit('divvy2')"> Shades </button>
   <button onclick="showit('divvy3')"> News </button>
   <button onclick="showit('divvy4')"> About </button>
-  <button onclick="showit('divvy5')"> FAQ </button>
-  <button onclick="showit('divvy6')"> Contact </button>
+  <button onclick="showit('divvy5')"> Quiz </button>
+  <button onclick="showit('divvy6')"> Pink Parade </button>
 </div>
 
 
 
 <div id="divvy1" class="showit div1 background">
-Life is bleak, when its not pink!    
+  <div class="words">
+  Life is bleak, when its not pink!   
+  </div>
 </div>
  
  
  
 <div id="divvy2" class="hideit background">
+  <div class="words">
+  So many shades of pink!
+  </div>
   <div class="thegrid">
     <div id="b1" class="blank1"></div>
     <div id="b2" class="blank2"></div>
@@ -49,36 +51,89 @@ Life is bleak, when its not pink!
 
 
 <div id="divvy3" class="hideit background">
-
+bubblegum, cotton candy, not just a girl color
 </div>
 
 
 
 <div id="divvy4" class="hideit background">
-
+  Things inspired by pink (panther, artist, cadillac, etc)
 </div>
 
 
 
 <div id="divvy5" class="hideit background">
+  <div class="words">
+  What color pink are you?
+  </div>
 
+  <div class="flexy">
+    <div class="flex1-a">
+      Do you prefer sunsets or sunrises?
+      <div class="radios" onchange="clicked1()">
+       <input type="radio" name="test" value="1">Sunset</input><br>
+       <input type="radio" name="test" value="2">Sunrise</input><br>
+     </div>
+    </div>
+    
+    <div class="flex1-b">
+      If you were a flower, which would you be
+      <div class="radios" onchange="clicked1()">
+       <input type="radio" name="flower" value="1">Rose</input><br>
+       <input type="radio" name="flower" value="2">Pansy</input><br>
+       <input type="radio" name="flower" value="3">Peony</input><br>
+       <input type="radio" name="flower" value="4">Azalea</input><br>
+     </div>
+    </div>
+    
+    <div class="flex1-c">
+      If you were a fruit, which would you be?
+      <div class="radios" onchange="clicked1()">
+       <input type="radio" name="fruit" value="1">Cherry</input><br>
+       <input type="radio" name="fruit" value="2">Strawbrery</input><br>
+       <input type="radio" name="fruit" value="3">Watermelon</input><br>
+       <input type="radio" name="fruit" value="4">Raspberry</input><br>
+     </div>
+    </div>
+    
+    <div class="flex1-d">
+      Choose 1
+      <div class="radios" onchange="clicked1()">
+       <input type="radio" name="choose" value="1">Princess</input><br>
+       <input type="radio" name="choose" value="2">Fairy</input><br>
+       <input type="radio" name="choose" value="3">Unicorn</input><br>
+     </div>
+    </div>
+    
+    <div class="flex1-e">
+      Left or Right?
+      <div class="radios" onchange="clicked1()">
+       <input type="radio" name="one" value="1">Left</input><br>
+       <input type="radio" name="one" value="2">Right</input><br>
+     </div>
+    </div>
+    
+    <div class="reveal"> Click to Reveal! </div>
+  </div>
+   
 </div>
 
 
 
 <div id="divvy6" class="hideit background">
-
+  <div class="parade1"></div>
+  <div class="parade1" style="animation-delay: 1s">  </div>
+  <div class="parade1" style="animation-delay: 1.7s">  </div>
+  <div class="parade1" style="animation-delay: 2.7s">  </div>
+  <div class="parade1" style="animation-delay: 3s">  </div>
+  <div class="parade1" style="animation-delay: 4s">  </div>
+  
+  <div class="words">
+  Join the Pink Parade!
+  </div>
 </div>
 
 
-
-  
-
-
-
-
-
-
 <script scr="script.js"></script>
-</body> 
+</body>
 </html>
