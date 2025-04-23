@@ -31,6 +31,10 @@ body{
   background-image: linear-gradient(to bottom, pink, white);
 }
 
+.homeimg {
+  height:100%;
+  background-image: IMG_0572.jpg;
+  
 .thegrid{
   display: grid;
   grid-template-columns: 80px 80px 80px 80px;
