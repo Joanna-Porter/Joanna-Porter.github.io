@@ -15,6 +15,7 @@ body{
 }
 
 .header{
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -26,12 +27,67 @@ body{
 
 .font1{
   font-family:"oi";
-  color: white;
-  font-size: 40px;
-}
-
-.butt1:hover {
   color: pink;
+  font-size: 40px;
+  margin: auto;
+}
+.font2{
+  font-family:"oi";
+  color: #FF007F;
+  font-size: 20px;
+  margin: auto;
+}
+.butt1{
+  color: white;
+  background-color: #FF007F;
+}
+.butt2{
+  color: white;
+  background-color: #FF007F;
+}
+.butt3{
+  color: white;
+  background-color: #FF007F;
+}
+.butt4{
+  color: white;
+  background-color: #FF007F;
+}
+.butt5{
+  color: white;
+  background-color: #FF007F;
+}
+.butt6{
+  color: white;
+  background-color: #FF007F;
+}
+.butt1:hover {
+  color: #FF007F;
+  background-color: white;
+  cursor: pointer;
+}
+.butt2:hover {
+  color: #FF007F;
+  background-color: white;
+  cursor: pointer;
+}
+.butt3:hover {
+  color: #FF007F;
+  background-color: white;
+  cursor: pointer;
+}
+.butt4:hover {
+  color: #FF007F;
+  background-color: white;
+  cursor: pointer;
+}
+.butt5:hover {
+  color: #FF007F;
+  background-color: white;
+  cursor: pointer;
+}
+.butt6:hover {
+  color: #FF007F;
   background-color: white;
   cursor: pointer;
 }
@@ -46,7 +102,7 @@ body{
 
 .homeimg {
   height:100%;
-  background-image: 'IMG_0572.jpg';
+  background-image: url("https://www.rush.com/wp-content/uploads/2014/12/2112-cover1-600x600.jpg")
   }
 
 .thegrid{
@@ -65,98 +121,98 @@ body{
   background-color: #FF69B4;
 }
 .blank2{
-  background-color: #FF69B4;
+  background-color: #FC6C85;
 }
 .blank3{
-  background-color: #FF69B4;
+  background-color: #F88379;
 }
 .blank4{
-  background-color: #FF69B4;
+  background-color: #FF9999;
 }
 .blank5{
-  background-color: #FF69B4;
+  background-color: #FC8EAC;
 }
 .blank6{
-  background-color: #FF69B4;
+  background-color: #FFD1DC;
 }
 .blank7{
-  background-color: #FF69B4;
+  background-color: #FFC1CC;
 }
 .blank8{
-  background-color: #FF69B4;
+  background-color: #E75480;
 }
 .blank9{
-  background-color: #FF69B4;
+  background-color: #FF007F;
 }
 .blank10{
-  background-color: #FF69B4;
+  background-color: #A94064;
 }
 .blank11{
-  background-color: #FF69B4;
+  background-color: #FF6E76;
 }
 .blank12{
-  background-color: #FF69B4;
+  background-color: #FF6EC7;
 }
 .blank13{
-  background-color: #FF69B4;
+  background-color: #DE5D83
 }
 .blank14{
-  background-color: #FF69B4;
+  background-color: #FF00FF;
 }
 .blank15{
-  background-color: #FF69B4;
+  background-color: #FF0090;
 }
 .blank16{
-  background-color: #FF69B4;
+  background-color: #FDA2C6;
 }
 
 .blank1:hover{
   background-color: #D90166;
 }
 .blank2:hover{
-  background-color: #D90166;
+  background-color: #E0218A;
 }
 .blank3:hover{
-  background-color: #D90166;
+  background-color: #FBA0E3;
 }
 .blank4:hover{
-  background-color: #D90166;
+  background-color: #E7ACCF;
 }
 .blank5:hover{
-  background-color: #D90166;
+  background-color: #FFCFF1;
 }
 .blank6:hover{
-  background-color: #D90166;
+  background-color: #FFB3DE;
 }
 .blank7:hover{
-  background-color: #D90166;
+  background-color: #C54B8C;
 }
 .blank8:hover{
-  background-color: #D90166;
+  background-color: #D470A2;
 }
 .blank9:hover{
-  background-color: #D90166;
+  background-color: #FDDDE6;
 }
 .blank10:hover{
-  background-color: #D90166;
+  background-color: #ED0091;
 }
 .blank11:hover{
-  background-color: #D90166;
+  background-color: #AD005B;
 }
 .blank12:hover{
-  background-color: #D90166;
+  background-color: #FFA0CC;
 }
 .blank13:hover{
-  background-color: #D90166;
+  background-color: #ED7A9E;
 }
 .blank14:hover{
-  background-color: #D90166;
+  background-color: #ED72AA;
 }
 .blank15:hover{
-  background-color: #D90166;
+  background-color: #CC0256;
 }
 .blank16:hover{
-  background-color: #D90166;
+  background-color: #8C004C;
 }
 
 .flexy{
@@ -275,12 +331,15 @@ body{
  
  .words{
    text-align: center;
+   
  }
- .middle{
+ 
+.middle{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+ 
 img {
   height: 100%;
   width: 100%;
@@ -289,6 +348,11 @@ img {
 .pic{
   height: 250px;
   width: 250px;
+  padding: 20px;
+}
+.pic2{
+  height: 150px;
+  width: 150px;
   padding: 20px;
 }
 
@@ -311,3 +375,30 @@ img {
   font-family: "oi";
   color: #FC6C85;
 }
+
+.format2{
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: black;
+}
+.format2-a{
+  padding: 12px;
+  flex: 1;
+  background: pink;
+  border: blue;
+}
+.format2-b{
+  padding: 12px;
+  flex: 1;
+  background: pink;
+  border: blue;
+}
+.format2-c{
+  padding: 12px;
+  flex: 1;
+  background: pink;
+  border: blue;
+  }
