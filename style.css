@@ -331,8 +331,12 @@ body{
  
  .words{
    text-align: center;
-   
  }
+.words2{
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
  
 .middle{
   display: block;
